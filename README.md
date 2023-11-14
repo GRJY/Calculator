@@ -8,4 +8,5 @@
  - Küçük input değeri atandı. 
  - Küçük input sadece değer göstermeye tanımlandı.
  - Şema ve tasarım stabilize edildi.
-<img width="361" alt="Ekran Resmi 2023-11-14 04 58 43" src="https://github.com/GRJY/Calculator/assets/96015199/6f5f3d4a-b540-4375-8e32-a3fa790c5dbf">
+
+<img width="302" alt="Ekran Resmi 2023-11-14 04 58 43" src="https://github.com/GRJY/Calculator/assets/96015199/69f41eed-1d59-4020-ab83-f4134c3996de">
