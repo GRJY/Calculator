@@ -1,0 +1,83 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #1e1e1e;
+}
+
+.calculator {
+    background-color: #292929;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+}
+
+.display {
+    background-color: #1e1e1e;
+    padding: 10px;
+    text-align: right;
+}
+
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    outline: none;
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+    border: none;
+    background-color: #363636;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #555555;
+}
+
+button.operator {
+    background-color: #ff9800;
+    color: #fff;
+}
+
+button.operator:hover {
+    background-color: #e07b00;
+}
+
+button.equal {
+    background-color: #ff9823;
+    color: #fff;
+}
+
+button.equal:hover {
+    background-color: #ffffff;
+}
+
+button.double {
+    grid-column: span 2;
+}
+
+.smallInput {
+    font-size: 14px;
+    color: #aaa;
+    text-align: right;
+    padding: 10px;
+    background-color: #1e1e1e;
+}
